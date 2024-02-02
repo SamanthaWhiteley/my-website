@@ -1,0 +1,23 @@
+p{
+    line-height: 1.5em;
+}
+footer p{
+    font-size: smaller;
+    font-style: italic;
+}
+a:hover{
+    font-size: larger;
+    color: rgb(239, 61, 159);
+}
+.places_to_stay{
+    font-variant: small-caps;
+}
+#my_experience{
+    font-weight: bold;
+}
+#title{
+    color: rgb(218, 81, 17);
+}
+*{
+    font-family: sans-serif;
+}
