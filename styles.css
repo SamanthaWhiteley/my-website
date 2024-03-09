@@ -17,7 +17,22 @@ a:hover{
 }
 #title{
     color: rgb(218, 81, 17);
+    margin-left: 42%;
+    margin-right: 42%;
+    background-color: #f3f308;
 }
 *{
     font-family: sans-serif;
+}
+img{
+border-radius: 2em;
+border: double;
+border-color: #000000;
+border-width: 4px;
+margin-left: 60px;
+margin-right: 50px;
+}
+#description{
+    margin-left: 20%;
+    margin-right: 20%;
 }

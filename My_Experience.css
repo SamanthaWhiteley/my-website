@@ -1,0 +1,5 @@
+article{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 2px dotted #000000;
+}
