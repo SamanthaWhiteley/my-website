@@ -1,22 +1,22 @@
-article{
-    column-count: 3;
-    column-gap: 30px;
-    column-rule: 2px dotted #d4c1f3;
-}
+
+
 /*Navigation Bar*/
 #nav_menu {
     width: 100%;
     padding-bottom: 2em;
     margin: auto;
 }
-#nav_menu ul { 
+
+#nav_menu ul {
     list-style-type: none;
     padding: 0%;
 }
-#nav_menu ul li { 
+
+#nav_menu ul li {
     float: left;
-    width: 33.33%
+    width: 25%;
 }
+
 #nav_menu ul li a {
     text-align: center;
     display: block;
@@ -26,24 +26,72 @@ article{
     font-weight: bold;
     border-right: 2px solid #ffffff;
 }
+
 #nav_menu ul li a.lastitem {
     border-right: none;
 }
+
 body {
     width: 80%;
     margin: auto;
+    background-color: #d1e2f7;
 }
-a:hover{
-    font-size: larger;
+header {
+    margin-top: 7%;
 }
-@media only screen and (max-width: 380px) {
-    article {
-        column-count: auto;
+#nav_menu ul li a:hover {
+    background-color: #1d1d71;
+}
+div#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#condos {
+    width: 33.33%;
+}
+#campground {
+    width: 33.33%;
+}
+#trailers {
+    width: 33.33%;
+}
+div#navbar {
+    display: flex;
+    flex-direction: row;
+}
+img { 
+    max-width: 250px;
+}
+
+
+@media only screen and (max-width: 750px) {
+    div#navbar {
+        flex-direction: column;
     }
-}
-@media only screen and (max-width: 565px) {
-    #nav_menu ul li { 
+    #nav_menu ul li {
         float: none;
         width: 100%;
     }
+    #nav_menu ul li a {
+        border-right: none;
+        border-bottom: 2px solid #ffffff;
+    }
+    #nav_menu ul li a.lastitem {
+        border-bottom: none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+   div#content{
+    flex-direction: column;
+   }
+   #condos {
+    width: 100%;
+   }
+   #campground {
+    width: 100%;
+   }
+   #trailers {
+    width: 100%;
+   }
 }
