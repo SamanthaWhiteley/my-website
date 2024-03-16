@@ -44,3 +44,14 @@ section {
 br {
     clear: both;
 }
+
+@media only screen and (max-width:450px) {
+    #main img {
+        min-width: 230px;
+        max-width: 300px;
+    }
+
+    #title {
+        line-height: 1em;
+    }
+}
