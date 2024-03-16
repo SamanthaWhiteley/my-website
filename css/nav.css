@@ -1,25 +1,4 @@
-p {
-    line-height: 1.5em;
-}
-
-#title {
-    color: #936a4e;
-    margin: auto;
-    text-align: center;
-}
-
-* {
-    font-family: sans-serif;
-}
-
-body {
-    width: 80%;
-    padding: 2em;
-    margin: auto;
-    color: #000000;
-    background-color: #d1e2f7;
-}
-/*Navigation Bar*/
+/*This file is for any css that is duplictaed across all of my webpages*/
 #nav_menu {
     width: 100%;
     padding-bottom: 2em;
@@ -40,7 +19,7 @@ body {
     text-align: center;
     display: block;
     padding: 1em;
-    background-color: #6767d2;
+    background-color: #41419a;
     color: #ffffff;
     font-weight: bold;
     border-right: 2px solid #ffffff;
@@ -49,54 +28,32 @@ body {
 #nav_menu ul li a.lastitem {
     border-right: none;
 }
+
 div#navbar {
     display: flex;
     flex-direction: row;
-}
-
-img {
-    border-radius: 2em;
-    border: double;
-    border-color: #ffffff;
-    border-width: 4px;
-    margin-left: 2.5%;
-    margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 45%;
-}
-
-#description {
-    margin: auto;
-    text-align: center;
-}
-
-footer p {
-    font-size: smaller;
-    font-style: italic;
 }
 
 #nav_menu ul li a:hover {
     background-color: #1d1d71;
 }
 
-.places_to_stay {
-    font-variant: small-caps;
+/*I included the footer in this file as well, since it is duplictaed across all pages*/
+footer p {
+    font-size: smaller;
+    font-style: italic;
+    background-color: #41419a;
+    height: 3em;
+    color: #ffffff;
+    text-align: center;
 }
 
-#my_experience {
-    font-weight: bold;
-}
-
-br {
-    clear: both;
-}
-
-/*media queries to fix break points*/
+/*media queries to fix any breaks*/
 @media only screen and (max-width: 750px) {
     div#navbar {
         flex-direction: column;
     }
+
     #nav_menu ul li {
         float: none;
         width: 100%;

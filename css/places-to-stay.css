@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    height: auto;
+    background-color: #d1e2f7;
+    margin: auto;
+    font-family: "Almarai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+/*this section is for my cards*/
+.card-container {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.card {
+    max-width: 350px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #41419a;
+    color: white;
+    border-radius: 4px;
+    margin-top: 16px;
+}

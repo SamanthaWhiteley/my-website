@@ -1,0 +1,13 @@
+1. I need to consolidate my css code so that I don't have duplicate code. 
+This will also make it easier to make changes to my code.
+
+I created a new file for my nav bar in css so that I don't have duplictae code.
+I also created a css folder to put all my css files into so that I am more organized.
+
+2. My places to stay page is too wordy, and not visually appealing.
+
+I fixed this page by creating cards for each place to stay, and reduced the word count a lot.
+
+3. On the my experience page my pictures look off, they are not centered.
+
+I centered the pictures, so now the web page looks a lot better.

@@ -1,0 +1,45 @@
+#title {
+    color: #936a4e;
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+body {
+    margin: auto;
+    color: #000000;
+    background-color: #d1e2f7;
+    font-family: "Almarai", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+section {
+    padding-bottom: 2em;
+    padding-top: 0;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#main img {
+    border-radius: 2em;
+    border: double;
+    border-color: #ffffff;
+    border-width: 10px;
+    margin-left: 2.5%;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 0;
+    width: 45%;
+}
+
+#description {
+    margin: auto;
+    text-align: center;
+}
+
+br {
+    clear: both;
+}

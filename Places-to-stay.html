@@ -5,97 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="places-to-stay.css" />
+    <link rel="stylesheet" href="./css/places-to-stay.css" />
+    <link rel="stylesheet" href="./css/nav.css">
+    <script src="https://kit.fontawesome.com/8d0de72320.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Angkor&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.jpg">
 </head>
 
 <body>
+    <!--This section is for my nav bar-->
     <nav id="nav_menu">
         <ul>
             <div id="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="My-Experience-in-Crescent-Bar.html">My Experience</a></li>
-            <li><a href="things_to_do.html">Things To Do</a></li>
-            <li><a href="Places-to-stay.html" class="lastitem">Places to Stay</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="My-Experience-in-Crescent-Bar.html">My Experience</a></li>
+                <li><a href="album.html">Photo Gallery</a></li>
+                <li><a href="Places-to-stay.html" class="lastitem">Places to Stay</a></li>
             </div>
         </ul>
     </nav>
     <main>
-        <header>
-            <h2>If you are looking to book a trip to Crescent Bar, there are many different places to stay.</h2>
-        </header>
         <section>
-            <div id="content">
-                <div id="trailers">
-                    <h3>
-                        The Trailers
-                    </h3>
-                    <p>
-                        Experience the epitome of relaxation and convenience by staying at the trailer park in Crescent
-                        Bar
-                        Resort. Nestled within the tranquil surroundings of the resort, the trailer park offers a unique
-                        blend
-                        of comfort and outdoor adventure. Wake up to the gentle rustle of leaves and the sound of
-                        birdsong, as
-                        you step outside your cozy trailer to greet the day. Enjoy a leisurely breakfast on your private
-                        patio,
-                        surrounded by lush greenery and breathtaking views of the Columbia River. Then, embark on a day
-                        of
-                        exploration, whether it's lounging on the sandy beaches, casting a line into the river for a
-                        relaxing
-                        fishing excursion.
-                    </p>
+            <!--this section is where I am going to make my cards-->
+            <div class="card-container">
+                <div class="card">
+                    <img src="./images/trailerfront.JPG" alt="Picture of trailer from front">
+                    <div class="card-content">
+                        <h3>Trailer Park</h3>
+                        <p>Staying at the trailer park at Crescent Bar offers a unique blend of comfort, convenience,
+                            and outdoor adventure amidst the serene surroundings of the Columbia River.</p>
+                    </div>
                 </div>
-                <div id="campground">
-                    <h3>
-                        The Campground
-                    </h3>
-                    <p>
-                        Immerse yourself in the great outdoors and experience the true essence of adventure by staying
-                        at the
-                        campground in Crescent Bar Resort. Tucked away amidst the natural beauty of Washington State,
-                        the campground
-                        offers a rustic yet inviting retreat for outdoor enthusiasts of all kinds. Pitch your tent under
-                        a canopy of
-                        stars and fall asleep to the soothing sounds of nature surrounding you. Rise with the sun and
-                        begin your day
-                        with a hike along scenic trails, where panoramic views of the Columbia River and rugged terrain
-                        await. As
-                        the day unfolds, enjoy a leisurely picnic by the water's edge or cool off with a refreshing swim
-                        in the
-                        river. Gather around the campfire in the evening, swapping stories and roasting marshmallows
-                        with fellow
-                        campers under the expansive night sky. With access to all the amenities of Crescent Bar Resort
-                        and the
-                        freedom to explore the wilderness at your own pace, camping at Crescent Bar offers a truly
-                        unforgettable
-                        outdoor experience for adventurers of all ages.
-                    </p>
-                    <img src="./images/campground.jpg" alt="campsite at Crescent Bar">
+                <div class="card">
+                    <img src="./images/condos3.jpg" alt="picture of condos and pool at Crescent Bar">
+                    <div class="card-content">
+                        <h3>Condos</h3>
+                        <p>Staying at the condos at Crescent Bar promises a luxurious and relaxing retreat with modern
+                            amenities, stunning river views, and easy access to a range of recreational activities,
+                            creating an unforgettable vacation experience.</p>
+                    </div>
                 </div>
-                <div id="condos">
-                    <h3>
-                        The Condos
-                    </h3>
-                    <p>
-                        Indulge in the ultimate blend of luxury and relaxation by staying at the condos in Crescent Bar
-                        Resort.
-                        Set against the picturesque backdrop of the Columbia River, these elegant accommodations offer a
-                        serene
-                        retreat for discerning travelers. Step into your spacious condo and be greeted by modern
-                        amenities and
-                        stylish decor, creating a welcoming atmosphere for your stay. Wake up to panoramic views of the
-                        river
-                        and surrounding mountains from your private balcony, as you savor a freshly brewed cup of
-                        coffee. Spend
-                        your days lounging by the pool, unwinding in the hot tub, or exploring the resort's myriad
-                        recreational
-                        activities, from golfing and tennis to water sports and hiking. In the evenings, dine al fresco
-                        on your
-                        balcony, savoring delicious meals prepared in your fully equipped kitchen or grilling up a feast
-                        in the
-                        outdoor barbecue area.
-                    </p>
-                    <img src="./images/Condos.jpg" alt="Condos and pool at Crescent Bar">
+                <div class="card">
+                    <img src="./images/campground.jpg" alt="Picture of Campsite at Crescent Bar">
+                    <div class="card-content">
+                        <h3>Campground</h3>
+                        <p>Staying at the campground at Crescent Bar provides an immersive outdoor experience,
+                            surrounded by natural beauty, with opportunities for hiking, picnicking, swimming, and
+                            campfires, making it an ideal choice for nature enthusiasts
+                            and adventurers.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -104,5 +64,8 @@
                 websites you can book through.</a></p>
     </main>
 </body>
+<footer>
+    <p>&copy;Samantha Whiteley 2024</p>
+</footer>
 
 </html>
